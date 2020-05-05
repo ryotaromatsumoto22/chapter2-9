@@ -17,11 +17,11 @@ main {
 
 .box {
 	float: left;
-  	width: 300px;
-  	margin-right: 30px;
-  	padding: 10px;
-  	position: relative;
-  	border: 1px solid #eee;
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+  border: 1px solid #eee;
 }
 
 .box:last-child {
@@ -30,9 +30,9 @@ main {
 
 .img1 {
 	height: 150px;
-  	background-image: url(img/flow01.png);
-  	background-size: cover;
-  	background-position: bottom;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .img2{
@@ -51,13 +51,33 @@ main {
 
 .step-num {
 	position: absolute;
-  	top: 0;
-  	left: 0;
-  	background-color: #FF9A4B;
-  	color: #fff;
+  top: 0;
+  left: 0;
+  background-color: #FF9A4B;
+  color: #fff;
  	padding: 3px;
 }
 
 .title {
 	margin: 15px 0 5px;
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 90%;
+    margin: 50px;
+  }
+  .box {
+    width: 90%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .box:last-child {
+    margin:0;
+  }
+  .img {
+    width: 80%
+  }
+
+}
+
