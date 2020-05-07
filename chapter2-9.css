@@ -65,12 +65,12 @@ main {
 @media screen and (max-width: 768px) {
   main {
     width: 90%;
-    margin: 50px;
+    margin: auto;
   }
   .box {
     width: 90%;
     float: none;
-    margin-bottom: 20px;
+    margin: 20px;
   }
   .box:last-child {
     margin:0;
