@@ -30,21 +30,21 @@ main {
 
 .img1 {
 	height: 150px;
-  background-image: url(img/flow01.png);
+  background-image: url(flow01.png);
   background-size: cover;
   background-position: bottom;
 }
 
 .img2{
   height: 150px;
-  background-image: url(img/flow02.png);
+  background-image: url(flow02.png);
   background-size: cover;
   background-position: bottom;
 }
 
 .img3{
   height: 150px;
-  background-image: url(img/flow03.png);
+  background-image: url(flow03.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -65,15 +65,14 @@ main {
 @media screen and (max-width: 768px) {
   main {
     width: 90%;
-    margin: auto;
   }
   .box {
-    width: 90%;
+    width: 100%;
     float: none;
-    margin: 20px;
+    margin-bottom: 20px;
   }
   .box:last-child {
-    margin:0;
+    margin-bottom: 0;
   }
   .img {
     width: 80%
